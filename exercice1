@@ -1,0 +1,129 @@
+Last login: Mon Mar 12 09:13:22 on console
+MacBook-Air-de-Bruce:~ brucefontaine$ ls
+Applications		Movies			Sans titre.txt
+Desktop			Music			eclipse
+Documents		Pictures		eclipse-workspace
+Downloads		Projects		git
+Library			Public
+MacBook-Air-de-Bruce:~ brucefontaine$ cd Desktop
+MacBook-Air-de-Bruce:Desktop brucefontaine$ git clone https://github.com/elsaBou/atelier0coquillage.git
+Cloning into 'atelier0coquillage'...
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+MacBook-Air-de-Bruce:Desktop brucefontaine$
+MacBook-Air-de-Bruce:Desktop brucefontaine$ ls
+Arduino photos
+Asiento
+CV Elsa Octobre 2017
+Codage
+Elsa de Brabant.pages
+Immersion javascript 6 mars
+Misscode
+Photos
+Photos projets
+Sheryl
+atelier0coquillage
+bootstrap-4.0.0
+cours
+viodéo pow<:her>
+~$Comptes E-mails.xlsx
+~$Ed Sheeran fichier 3 .xlsx
+~$Listing (Enregistré automatiquement).xlsx
+~$nditions générales de vente Finale Champions League.docx
+~$ofession d'amour.docx
+~$pparts.docx
+MacBook-Air-de-Bruce:Desktop brucefontaine$ ✆
+-bash: ✆: command not found
+MacBook-Air-de-Bruce:Desktop brucefontaine$ cd
+MacBook-Air-de-Bruce:~ brucefontaine$ ls atelier0coquillage
+ls: atelier0coquillage: No such file or directory
+MacBook-Air-de-Bruce:~ brucefontaine$ cd atelier0coquillage
+-bash: cd: atelier0coquillage: No such file or directory
+MacBook-Air-de-Bruce:~ brucefontaine$ cd
+MacBook-Air-de-Bruce:~ brucefontaine$ mkdir Jaime_le_shell
+MacBook-Air-de-Bruce:~ brucefontaine$ rm Jaime_le_shell
+rm: Jaime_le_shell: is a directory
+MacBook-Air-de-Bruce:~ brucefontaine$ ls Desktop
+Arduino photos
+Asiento
+CV Elsa Octobre 2017
+Codage
+Elsa de Brabant.pages
+Immersion javascript 6 mars
+Misscode
+Photos
+Photos projets
+Sheryl
+bootstrap-4.0.0
+cours
+ls
+viodéo pow<:her>
+~$Comptes E-mails.xlsx
+~$Ed Sheeran fichier 3 .xlsx
+~$Listing (Enregistré automatiquement).xlsx
+~$nditions générales de vente Finale Champions League.docx
+~$ofession d'amour.docx
+~$pparts.docx
+MacBook-Air-de-Bruce:~ brucefontaine$ mkdir Jaime_le_shell
+mkdir: Jaime_le_shell: File exists
+MacBook-Air-de-Bruce:~ brucefontaine$ pwd
+/Users/brucefontaine
+MacBook-Air-de-Bruce:~ brucefontaine$ ls Desktop
+Arduino photos
+Asiento
+Ateliercoquillage
+CV Elsa Octobre 2017
+Codage
+Elsa de Brabant.pages
+Immersion javascript 6 mars
+Jaime_le_shell
+Misscode
+Photos
+Photos projets
+Sheryl
+bootstrap-4.0.0
+cours
+viodéo pow<:her>
+~$Comptes E-mails.xlsx
+~$Ed Sheeran fichier 3 .xlsx
+~$Listing (Enregistré automatiquement).xlsx
+~$nditions générales de vente Finale Champions League.docx
+~$ofession d'amour.docx
+~$pparts.docx
+MacBook-Air-de-Bruce:~ brucefontaine$ ls Jaime_le_shell
+ls: Jaime_le_shell: No such file or directory
+MacBook-Air-de-Bruce:~ brucefontaine$ cd Jaime_le_shell
+-bash: cd: Jaime_le_shell: No such file or directory
+MacBook-Air-de-Bruce:~ brucefontaine$ cd..Jaime_le_shell
+-bash: cd..Jaime_le_shell: command not found
+MacBook-Air-de-Bruce:~ brucefontaine$ cd Deskop/Jaime_le_shell
+-bash: cd: Deskop/Jaime_le_shell: No such file or directory
+MacBook-Air-de-Bruce:~ brucefontaine$ cat Jaime_le_shell
+cat: Jaime_le_shell: No such file or directory
+MacBook-Air-de-Bruce:~ brucefontaine$ cd
+MacBook-Air-de-Bruce:~ brucefontaine$ cd atelier0coquillagecd
+-bash: cd: atelier0coquillagecd: No such file or directory
+MacBook-Air-de-Bruce:~ brucefontaine$ cd
+MacBook-Air-de-Bruce:~ brucefontaine$ ls
+Applications		Movies			Sans titre.txt
+Desktop			Music			eclipse
+Documents		Pictures		eclipse-workspace
+Downloads		Projects		git
+Library			Public
+MacBook-Air-de-Bruce:~ brucefontaine$ cd Desktop
+MacBook-Air-de-Bruce:Desktop brucefontaine$ cd Jaime_le_shell
+MacBook-Air-de-Bruce:Jaime_le_shell brucefontaine$ touch test1
+MacBook-Air-de-Bruce:Jaime_le_shell brucefontaine$ touch test5
+MacBook-Air-de-Bruce:Jaime_le_shell brucefontaine$ mkdir test2 test3 test4 test6
+MacBook-Air-de-Bruce:Jaime_le_shell brucefontaine$ ls-l
+-bash: ls-l: command not found
+MacBook-Air-de-Bruce:Jaime_le_shell brucefontaine$ ls -l
+total 0
+-rw-r--r--  1 brucefontaine  staff   0 12 mar 10:33 test1
+drwxr-xr-x  2 brucefontaine  staff  64 12 mar 10:34 test2
+drwxr-xr-x  2 brucefontaine  staff  64 12 mar 10:34 test3
+drwxr-xr-x  2 brucefontaine  staff  64 12 mar 10:34 test4
+-rw-r--r--  1 brucefontaine  staff   0 12 mar 10:33 test5
+drwxr-xr-x  2 brucefontaine  staff  64 12 mar 10:34 test6
+MacBook-Air-de-Bruce:Jaime_le_shell brucefontaine$
